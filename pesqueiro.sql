@@ -41,7 +41,7 @@ CREATE TABLE `especie` (
 INSERT INTO `especie` (`id`, `nome`, `precoKg`, `descricao`) VALUES
 (1, 'Linguado', 10.00, 'oii'),
 (2, 'Lucio', 20.00, 'eita'),
-(3, 'PEIXE BOSTA', 676767.00, 'OIIIIIIII');
+
 
 -- --------------------------------------------------------
 
@@ -82,7 +82,7 @@ CREATE TABLE `produto` (
 
 INSERT INTO `produto` (`id`, `nome`, `preco`, `descricao`) VALUES
 (2, 'vara', 20.00, 'audqsuod'),
-(3, 'dasdas', 45.00, 'ddasd');
+
 
 -- --------------------------------------------------------
 
@@ -103,10 +103,7 @@ CREATE TABLE `tanque` (
 
 INSERT INTO `tanque` (`id`, `nome`, `capacidade`, `ativo`) VALUES
 (1, 'Tanque 1 ', 20, 1),
-(2, 'Tanque BOSTA', 100, 0),
-(3, 'tanque merda', 20, 1),
-(4, 'tanque bosta', 30, 1),
-(5, 'sasa', 30, 1);
+
 
 --
 -- Índices para tabelas despejadas
